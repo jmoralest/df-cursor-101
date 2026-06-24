@@ -30,7 +30,29 @@ cd df-cursor-101
 
 ### Para agentes (harness)
 
-Si eres un agente de IA trabajando en este repo, empieza por **`AGENT.md`** → `MEMORY.md` → `SKILLS.md`.
+Si eres un agente de IA trabajando en este repo, empieza por **`AGENT.md`** → **`docs/arquitectura-capas.md`** → `MEMORY.md` → `SKILLS.md`.
+
+---
+
+## Arnés en tres capas
+
+| Capa | Qué es | Docs en este repo |
+|------|--------|-------------------|
+| **Contexto** | Rules, skills, memory, docs | [arquitectura-capas.md](docs/arquitectura-capas.md) |
+| **Control** | Hooks, tests, checkpoints | [08-hooks.md](docs/08-hooks.md) |
+| **Orquestación** | Features, progress, subagentes | [ejemplo-harness-subagentes](https://github.com/jmoralest/ejemplo-harness-subagentes) |
+
+---
+
+## Mapa visual del repo (graphify)
+
+```bash
+graphify update .
+# Pedir al agente que etiquete comunidades y regenere HTML, o:
+open graphify-out/graph.html
+```
+
+Guía completa: [docs/graphify.md](docs/graphify.md)
 
 ---
 
@@ -48,6 +70,8 @@ Si eres un agente de IA trabajando en este repo, empieza por **`AGENT.md`** → 
 | 8 | Hooks (automatización determinista) | [docs/08-hooks.md](docs/08-hooks.md) |
 | 9 | Tips y trucos | [docs/09-tips-trucos.md](docs/09-tips-trucos.md) |
 | 10 | **Tutorial paso a paso** | [docs/10-paso-a-paso.md](docs/10-paso-a-paso.md) |
+| — | **Arquitectura en capas del arnés** | [docs/arquitectura-capas.md](docs/arquitectura-capas.md) |
+| — | **Graphify** (mapa del repo) | [docs/graphify.md](docs/graphify.md) |
 
 ---
 
@@ -110,7 +134,8 @@ df-cursor-101/
 │   └── skills/
 │       └── crear-readme/     # Skill de ejemplo
 │           └── SKILL.md
-└── docs/                     # Guías detalladas (01–10)
+├── docs/                     # Guías (01–10 + arquitectura-capas + graphify)
+└── graphify-out/             # Generado localmente (gitignored)
 ```
 
 ---

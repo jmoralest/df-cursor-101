@@ -23,8 +23,27 @@ Cursor recorre subdirectorios y detecta cualquier `SKILL.md`.
 
 Los skills en `~/.cursor/skills-cursor/` son internos (create-skill, create-rule, sdk, etc.). **No los copies ni edites.**
 
+## Instalar skills personales (archivos `.skill`)
+
+Los paquetes `.skill` son ZIP con `nombre-skill/SKILL.md` dentro. Para usarlos en Cursor:
+
+```bash
+mkdir -p ~/.cursor/skills
+unzip -o ~/Downloads/SKILLS-PASO/humanizador.skill -d ~/.cursor/skills/
+```
+
+Reinicia Cursor o abre **Customize → Skills**. Invócalos con `/humanizador`, `/superpowers`, etc.
+
+| Ubicación | Alcance |
+|-----------|---------|
+| `~/.cursor/skills/` | Todos tus proyectos en Cursor |
+| `.cursor/skills/` en un repo | Solo ese proyecto (versionable en git) |
+
+Ver [docs/07-claude-skills-en-cursor.md](docs/07-claude-skills-en-cursor.md).
+
 ## Guías
 
 - [docs/03-skills.md](docs/03-skills.md) — Autoría y formato
 - [docs/07-claude-skills-en-cursor.md](docs/07-claude-skills-en-cursor.md) — Usar skills de Claude en Cursor
+- [docs/graphify.md](docs/graphify.md) — Skill graphify y mapa del repo
 - [docs/10-paso-a-paso.md](docs/10-paso-a-paso.md) — Tutorial completo
