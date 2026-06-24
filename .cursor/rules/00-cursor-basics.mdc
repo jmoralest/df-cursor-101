@@ -1,0 +1,11 @@
+---
+description: Convenciones base para trabajar en este repositorio educativo
+alwaysApply: true
+---
+
+# Convenciones del repo df-cursor-101
+
+- Documentación en español, tono claro y didáctico
+- Ejemplos mínimos y ejecutables; evitar código de aplicación innecesario
+- Al añadir un concepto nuevo, actualizar README.md y el doc correspondiente en `docs/`
+- No crear archivos markdown no solicitados fuera de este propósito educativo

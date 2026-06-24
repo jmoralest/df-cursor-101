@@ -1,0 +1,12 @@
+---
+description: Estilo para archivos markdown de documentación
+globs: docs/**/*.md,**/*.md
+alwaysApply: false
+---
+
+# Estilo markdown
+
+- Títulos con `#` jerárquico (un solo H1 por archivo)
+- Tablas para comparar conceptos (Rules vs Skills, etc.)
+- Bloques de código con lenguaje indicado (`bash`, `markdown`, `json`)
+- Enlaces relativos entre docs del repo (`docs/03-skills.md`)
