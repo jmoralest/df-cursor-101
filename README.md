@@ -13,6 +13,7 @@
 - Reutilizar **skills de Claude** dentro de Cursor (mismo estándar Agent Skills)
 - Tips, trucos y guía paso a paso
 - Ejemplos versionables listos para clonar y experimentar
+- Priorizar **aprender a trabajar con modelos** (especificar problemas, diseñar contexto, evaluar resultados) por sobre construir infraestructura alrededor del modelo antes de tiempo — ver [docs/11-modelos-vs-infraestructura.md](docs/11-modelos-vs-infraestructura.md)
 
 ---
 
@@ -70,6 +71,7 @@ Guía completa: [docs/graphify.md](docs/graphify.md)
 | 8 | Hooks (automatización determinista) | [docs/08-hooks.md](docs/08-hooks.md) |
 | 9 | Tips y trucos | [docs/09-tips-trucos.md](docs/09-tips-trucos.md) |
 | 10 | **Tutorial paso a paso** | [docs/10-paso-a-paso.md](docs/10-paso-a-paso.md) |
+| 11 | **Modelos vs. infraestructura** (dónde invertir el aprendizaje) | [docs/11-modelos-vs-infraestructura.md](docs/11-modelos-vs-infraestructura.md) |
 | — | **Arquitectura en capas del arnés** | [docs/arquitectura-capas.md](docs/arquitectura-capas.md) |
 | — | **Graphify** (mapa del repo) | [docs/graphify.md](docs/graphify.md) |
 

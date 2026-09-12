@@ -216,6 +216,7 @@ Si algo sale mal:
 | Skills | [03-skills.md](03-skills.md) |
 | Memory | [04-memory.md](04-memory.md) |
 | Hooks (control) | [08-hooks.md](08-hooks.md) |
+| Cuándo vale la pena esta arquitectura vs. priorizar el diseño de contexto | [11-modelos-vs-infraestructura.md](11-modelos-vs-infraestructura.md) |
 | Graphify (mapa del repo) | [graphify.md](graphify.md) |
 | Harness de referencia externo | [ejemplo-harness-subagentes](https://github.com/jmoralest/ejemplo-harness-subagentes) |
 
